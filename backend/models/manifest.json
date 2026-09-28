@@ -1,0 +1,66 @@
+{
+  "raw": {
+    "variant": "raw",
+    "weights_file": "ppo_raw.zip",
+    "train_start": "2016-12-30",
+    "train_end": "2024-12-30",
+    "seed": 0,
+    "total_timesteps": 50000,
+    "ppo_params": {
+      "n_steps": 2048,
+      "ent_coef": 0.005,
+      "learning_rate": 0.0001,
+      "batch_size": 128
+    },
+    "train_seconds": 253.1,
+    "built_at": "2026-08-06 17:26:00"
+  },
+  "dsr": {
+    "variant": "dsr",
+    "weights_file": "ppo_dsr.zip",
+    "train_start": "2016-12-30",
+    "train_end": "2024-12-30",
+    "seed": 0,
+    "total_timesteps": 50000,
+    "ppo_params": {
+      "n_steps": 2048,
+      "ent_coef": 0.005,
+      "learning_rate": 0.0001,
+      "batch_size": 128
+    },
+    "train_seconds": 207.9,
+    "built_at": "2026-08-06 17:29:28"
+  },
+  "sortino": {
+    "variant": "sortino",
+    "weights_file": "ppo_sortino.zip",
+    "train_start": "2016-12-30",
+    "train_end": "2024-12-30",
+    "seed": 0,
+    "total_timesteps": 50000,
+    "ppo_params": {
+      "n_steps": 2048,
+      "ent_coef": 0.005,
+      "learning_rate": 0.0001,
+      "batch_size": 128
+    },
+    "train_seconds": 225.2,
+    "built_at": "2026-08-06 17:33:13"
+  },
+  "cost": {
+    "variant": "cost",
+    "weights_file": "ppo_cost.zip",
+    "train_start": "2016-12-30",
+    "train_end": "2024-12-30",
+    "seed": 0,
+    "total_timesteps": 50000,
+    "ppo_params": {
+      "n_steps": 2048,
+      "ent_coef": 0.005,
+      "learning_rate": 0.0001,
+      "batch_size": 128
+    },
+    "train_seconds": 205.4,
+    "built_at": "2026-08-06 17:36:39"
+  }
+}

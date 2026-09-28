@@ -1,0 +1,7 @@
+variant,fold_1,fold_2,fold_3,fold_4
+cost,5,4,6,4
+dsr,2,2,2,3
+ew_1overN,3,6,4,5
+raw,6,5,5,6
+sortino,4,3,3,2
+spy_bh,1,1,1,1
